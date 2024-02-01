@@ -16,15 +16,15 @@
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('assets/img/carousel/img1.png') }}"
+                                        <img src="{{ asset('assets/img/carousel/lahan-jagung.jpg') }}"
                                             class="d-block w-100 rounded-2">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/img/carousel/img2.png') }}"
+                                        <img src="{{ asset('assets/img/carousel/lahan-kedelai.jpg') }}"
                                             class="d-block w-100 rounded-2">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/img/carousel/img3.png') }}"
+                                        <img src="{{ asset('assets/img/carousel/lahan-padi.jpg') }}"
                                             class="d-block w-100 rounded-2">
                                     </div>
                                 </div>
@@ -46,13 +46,13 @@
 
                         <div class="card-body d-flex text-center">
                             <div>
-                                <img src="{{ asset('assets/img/carousel/img1.png') }}" width="75%">
+                                <img src="{{ asset('assets/img/carousel/lahan-jagung.jpg') }}" width="68%" class="rounded">
                             </div>
                             <div>
-                                <img src="{{ asset('assets/img/carousel/img2.png') }}" width="75%">
+                                <img src="{{ asset('assets/img/carousel/lahan-kedelai.jpg') }}" width="100%" class="rounded">
                             </div>
                             <div>
-                                <img src="{{ asset('assets/img/carousel/img3.png') }}" width="75%">
+                                <img src="{{ asset('assets/img/carousel/lahan-padi.jpg') }}" width="68%" class="rounded">
                             </div>
                         </div>
 
@@ -63,24 +63,24 @@
                     <div class="card" style="background: #F1F1F1">
                         <div class="card-body p-4 rounded-4" style="border: 1px solid rgb(177, 176, 176)">
                             <div class="card-title">
-                                <h5 class="text-center fw-bold">Komoditas Jagung</h5>
+                                <h5 class="text-center fw-bold" style="color: #1A5653">Komoditas Jagung</h5>
                             </div>
                             <div class="row mb-3">
                                 <span>Jumlah petani yang menerima pendanaan</span> <br />
-                                <span class="fw-bold h6">50.000 Petani</span>
+                                <span class="fw-bold h6" style="color: #044786">50.000 Petani</span>
                             </div>
                             <div class="row mb-3">
                                 <span>Jumlah petani yang menerima pendanaan komoditas Jagung</span> <br />
-                                <span class="fw-bold h6">12.000 Petani</span>
+                                <span class="fw-bold h6" style="color: #044786">12.000 Petani</span>
                             </div>
-                            <hr>
+                            <hr style="color: #107869; height: 3px;">
                             <div class="row mb-3">
                                 <span>Jumlah maksimal pendanaan yang diterima</span> <br />
-                                <span class="fw-bold h6">Rp. 15.000.000</span>
+                                <span class="fw-bold h6" style="color: #044786">Rp. 15.000.000</span>
                             </div>
                             <div class="row mb-3">
                                 <span>Jumlah minimal pendanaan yang diterima</span> <br />
-                                <span class="fw-bold h6">Rp. 10.000.000 Petani</span>
+                                <span class="fw-bold h6" style="color: #044786">Rp. 10.000.000 Petani</span>
                             </div>
                         </div>
                     </div>
